@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(139, 52, 221);
+    padding: 0%;
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.titleAndButton{
+    background-color: rgb(138, 76, 196);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.titleAndButton h1{
+    margin-right: 40%;
+}
+.titleAndButton img{
+    width: 40px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.information{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(166, 57, 230);
+    align-items: center;
+    border-radius: 20px;
+    margin: 10px;
+}
+.dateAndTitle h2 , h3{
+    margin: 5px 20px;
+}
+.information img{
+    width: 40px;
+    margin: 5px;
+}
